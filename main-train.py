@@ -10,7 +10,7 @@ import os
 import time
 from datetime import datetime
 from utils import *
-from rnn_theano import RNNTheano
+from theano import RNNTheano
 
 _VOCABULARY_SIZE = int(os.environ.get('VOCABULARY_SIZE', '930'))
 _HIDDEN_DIM = int(os.environ.get('HIDDEN_DIM', '80'))
